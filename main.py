@@ -168,7 +168,7 @@ while jugando:
         tableroPuntaje.clear()
         tableroPuntaje.write("puntaje: {}".format(puntaje), align="center", font=("ds-digital",24,"normal"))      
               
-#revisar las coliciones con la comida
+    #revisar las coliciones con la comida
     if cabeza.distance(comida) <15:
         #se reubica la comida a un punto aleatorio
         ubicaciones = comidaUbicacion(puntaje)
